@@ -18,7 +18,27 @@ Welcome to my **personal portfolio**! This project showcases my education, skill
 
 ## 📷 Portfolio Preview
 
-[![Portfolio Screenshot](./screenshot.png)](https://your-portfolio-link.com)
+[![Portfolio Screenshot](./screenshot.png)](https://abhii718.github.io/Portfolio)
 
 ## 📂 Project Structure
+
+📦 Portfolio
+┣ 📂 src
+┃ ┣ 📂 components
+┃ ┃ ┣ 📜 Header.js
+┃ ┃ ┣ 📜 About.js
+┃ ┃ ┣ 📜 Education.js
+┃ ┃ ┣ 📜 Projects.js
+┃ ┃ ┣ 📜 Contact.js
+┃ ┣ 📂 assets
+┃ ┣ 📜 App.js
+┃ ┣ 📜 index.js
+┣ 📜 package.json
+┣ 📜 README.md
+┗ 📜 .gitignore
+
+## 🚀 Connect with Me  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhisingh3/)  
+[![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abhii718)  
+📧 **Email:** [abhinaysingh47639@gmail.com](mailto:abhinaysingh47639@gmail.com)  
 
