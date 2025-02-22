@@ -42,7 +42,7 @@
     background: linear-gradient(45deg, #9f7aea, #ed64a6);
     filter: blur(12px);
     opacity: 0.3;
-    animation: glow-pulse 3s infinite;
+    animation: glow-pulse 2s infinite;
   }
   
   .name-title {

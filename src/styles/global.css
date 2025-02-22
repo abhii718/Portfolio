@@ -9,16 +9,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    /* font-size: 16px; */
+    /* font-weight: 400; */
     /* color: var(--deep-blue); */
     line-height: 1.6;
-    background-color: #101930d5; 
-     
-
+    /* background-color: #101930d5;  */
 }
 
-.gradient-bg {
+/* .gradient-bg {
     position: fixed;
     top: -50%;
     left: -50%;
@@ -30,7 +28,7 @@ body {
             rgba(255, 217, 61, 0.1) 100%);
     animation: gradientShift 20s ease infinite;
     z-index: -1;
-}
+} */
 
 @keyframes gradientShift {
     0% {
@@ -46,26 +44,28 @@ body {
     }
 }
 
-.header-card {
+/* .header-card {
     text-align: center;
     margin: 2rem auto;
     position: relative;
-}
+} */
 
-.profile-img {
+/* .profile-img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
     border: 4px solid var(--teal);
     box-shadow: 0 10px 30px rgba(44, 174, 186, 0.3);
     transition: transform 0.3s;
+    z-index: -2220;
 }
 
 .profile-img:hover {
-    transform: scale(1.05) rotate(5deg);
-}
+    transform: scale(2) rotate(5deg);
+    /* z-index: -500; */
+*/
 
-.glassmorphism {
+/* .glassmorphism {
     background: linear-gradient(to bottom, #1a202c, #2d3748);
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -73,9 +73,9 @@ body {
     margin: 2rem auto;
     box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.18);
-}
+} */
 
-.contact-btn {
+/* .contact-btn {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -90,7 +90,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-}
+} */
 
 .contact-btn:hover {
     transform: scale(1.05);
@@ -165,20 +165,4 @@ h6 {
         transform: translate(-50%, -50%) scale(1.5);
         opacity: 0;
     }
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th,
-td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #f4f4f4;
 }
