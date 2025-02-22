@@ -1,7 +1,7 @@
 .header {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     background: rgba(29, 31, 39, 0.95);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(79, 89, 107, 0.3);

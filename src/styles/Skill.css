@@ -1,6 +1,7 @@
 .skills-card {
     padding: 2rem 1rem;
-    background: linear-gradient(to bottom, #1a202c, #2d3748);
+    /* background: linear-gradient(to bottom, #1a202c, #2d3748); */
+    background-color:#2d3748 ;
     border-radius: 1rem;
     margin: 2rem auto;
     max-width: 1200px;
