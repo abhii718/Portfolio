@@ -1,0 +1,154 @@
+.projects-section {
+  padding: 4rem 1rem;
+  background: linear-gradient(to bottom, #1a202c, #2d3748);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(to right, #9f7aea, #ed64a6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card.active {
+  transform: scale(1.03);
+}
+
+.card-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #805ad5, #ed64a6);
+  opacity: 0.2;
+  filter: blur(20px);
+}
+
+.card-content {
+  position: relative;
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-title a {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  color: #9f7aea;
+}
+
+.project-description {
+  color: #a0aec0;
+  margin-bottom: 1rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-item {
+  background: #1a202c;
+  color: #9f7aea;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  border: 1px solid rgba(159, 122, 234, 0.3);
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.demo-button, .github-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.demo-button {
+  background: linear-gradient(to right, #9f7aea, #ed64a6);
+  color: white;
+}
+
+.demo-button:hover {
+  opacity: 0.9;
+}
+
+.github-button {
+  background: #1a202c;
+  color: #e2e8f0;
+  border: 1px solid #4a5568;
+}
+
+.github-button:hover {
+  background: #2d3748;
+}
+
+.link-icon, .github-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 0.5rem;
+}
+
+.link-icon {
+  stroke: currentColor;
+}
+
+.github-icon {
+  fill: currentColor;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

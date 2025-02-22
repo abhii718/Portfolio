@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-
 :root {
     --teal: #2caeba;
     --coral: #ff6b6b;
@@ -14,7 +13,9 @@ body {
     font-weight: 400;
     /* color: var(--deep-blue); */
     line-height: 1.6;
-    background-color: #f4f5e2b2;
+    background-color: #101930d5; 
+     
+
 }
 
 .gradient-bg {
@@ -65,36 +66,13 @@ body {
 }
 
 .glassmorphism {
-    background: rgba(255, 255, 255, 0.9);
+    background: linear-gradient(to bottom, #1a202c, #2d3748);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 2rem;
     margin: 2rem auto;
     box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 1rem;
-}
-
-.skill {
-    padding: 0.8rem;
-    text-align: center;
-    border-radius: 15px;
-    background: white;
-    font-weight: 500;
-    color: var(--deep-blue);
-    border: 2px solid var(--teal);
-    transform: translateY(0);
-    transition: all 0.3s;
-}
-
-.skill:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .contact-btn {
@@ -109,12 +87,9 @@ body {
     text-decoration: none;
     transition: transform 0.3s;
 
-
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-
-
 }
 
 .contact-btn:hover {
@@ -129,7 +104,6 @@ code {
     padding: 4px 6px;
     border-radius: 5px;
 }
-
 
 h1,
 h2,
@@ -152,7 +126,6 @@ h6 {
     font-weight: 500;
     color: var(--coral);
 }
-
 
 /* Floating Animation */
 @keyframes float {

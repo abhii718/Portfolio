@@ -1,4 +1,4 @@
-// import "./skill.css"
+import "../../src/styles/skill.css"
 
 const Skill = () => {
   const skill = [

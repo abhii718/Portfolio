@@ -6,19 +6,19 @@ const Education = () => {
       <h2 className="section-title">
         <i className="fas fa-graduation-cap"></i> Education
       </h2>
-      
+
       <div className="timeline">
 
         {/* BCA */}
         <div className="timeline-item">
           <div className="edu-card-content">
             <h3>Bachelor of Computer Applications (BCA)</h3>
-            <p className="college-name">Mewar Institute of Management</p>
-            <p className="highlight">Vasundhara, Ghaziabad | 2022-2025</p>
-            <p>Currently in my third year, focusing on programming, database management, and web development.</p>
+            <p className="college-name">Mewar Institute of Management Vasundhara, Ghaziabad </p>
+            <p className="highlight">2022-2025</p>
+            <p >Expected month of completing graduation August b</p>
           </div>
         </div>
-
+        <br />
         {/* 12th Grade */}
         <div className="timeline-item">
           <div className="edu-card-content">
@@ -44,14 +44,14 @@ const Education = () => {
             </table>
           </div>
         </div>
-
+        <br />
         {/* 10th Grade */}
         <div className="timeline-item">
           <div className="edu-card-content">
             <h3>Secondary (10th Grade)</h3>
             <p className="college-name">BSRK Inter College</p>
             <p className="highlight">2019-2020</p>
-            <p>Completed 10th with <strong>73.5%</strong>.</p>
+            <p>Completed 10th with <strong>73.5%(441/600)</strong>.</p>
 
             <table className="edu-table">
               <thead>
