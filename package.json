@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cpx dist/index.html dist/404.html",
+    "build": "vite build && copy dist\\index.html dist\\404.html",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "vite build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
