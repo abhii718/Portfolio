@@ -92,13 +92,18 @@
 @media (max-width: 768px) {
   .header {
     padding: 0;
-    ;
+    padding-top: 5px;
     padding-left: 1rem;
   }
 
   .header-content {
     gap: 1rem;
 
+  }
+
+  .tagline-part {
+    position: relative;
+    padding: 0 0 ;
   }
 
   .profile-container {
@@ -108,13 +113,13 @@
 
   .name-title {
     padding-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* padding-top: 2rem; */
   }
 
   .tagline {
-    flex-direction: row;
-    gap: 0.4rem;
+    flex-direction: column;
+    gap: 0rem;
     display: flex;
     align-items: flex-start;
     padding-left: 1rem;
