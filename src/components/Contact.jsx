@@ -18,7 +18,7 @@ const Contact = () => {
         
         <div className="contact-grid">
           <motion.a
-            href="mailto:abhinaysingh47639@gmail.com"
+            href="mailto:abhinay.s.dev@gmail.com"
             className="contact-btn"
             variants={buttonVariants}
             whileHover="hover"
