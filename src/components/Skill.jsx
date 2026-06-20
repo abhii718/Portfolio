@@ -2,12 +2,16 @@ import "../../src/styles/skill.css"
 
 const Skill = () => {
   const skill = [
-    { name: "C", color: "#1995ad" },
-    { name: "JavaScript", color: "#a1d6e2" },
-    { name: "React.js", color: "#4ecdc4" },
-    { name: "Node.js", color: "#ff9f43" },
-    { name: "MongoDB", color: "#5f27cd" },
+    // Top Priority: Corporate & Tech Support Skills
+    { name: "IT Troubleshooting", color: "#ff6b6b" },
+    { name: "Technical Support", color: "#0abde3" },
+    { name: "CRM Management", color: "#feca57" },
+    { name: "Customer Experience (CX)", color: "#9b59b6" },
+    
+    // Technical Foundation: Web Skills
     { name: "HTML & CSS", color: "#ee5253" },
+    { name: "JavaScript", color: "#a1d6e2" },
+    { name: "React.js", color: "#4ecdc4" }
   ];
 
   return (
@@ -24,4 +28,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;;
+export default Skill;
