@@ -20,8 +20,7 @@ const About = () => {
           </h2>
           
           <p className="about-description">
-            A dedicated BCA student with expertise in C, JavaScript, and web development.
-            Passionate about problem-solving and creating innovative solutions.
+         A dedicated Tech Professional with a Bachelor of Computer Applications (BCA) and active expertise in web development. I have a strong command over C, JavaScript, and React. Passionate about problem-solving, I am currently applying my analytical and technical troubleshooting skills in corporate client operations to deliver innovative and effective solutions.
           </p>
 
           <div className="tech-stack">
