@@ -41,7 +41,7 @@ const Header = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            <span className="tagline-part">Aspiring Web Developer</span>
+            <span className="tagline-part">IT Professional & Web Developer</span>
             <div className="animated-divider" />
             <span className="tagline-part">Turning Code into Solutions</span>
           </motion.div>
