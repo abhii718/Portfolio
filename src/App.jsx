@@ -5,6 +5,7 @@ import Education from "./components/Education";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Skill from "./components/Skill.jsx"; 
+import Experience from './components/Experience';
 import React from "react";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <div>
       <Header />
       <About />
+      <Experience />
       <Education />
       <Skill />
       <Projects />
